@@ -68,7 +68,6 @@ body{
 }
 .content{
 	background-color: #EAEAEA;
-	height: 2600px;
 	margin-top: 30vw;
 }
 /*ABOUT_ME*/
@@ -76,12 +75,6 @@ body{
 
 	padding-top:150px;
 	width: 100%;
-	/*background:url(pics/transparent2.png);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;*/
-	/*border-top: 20px solid green;*/
-	/*box-shadow:inset 1px 15px 40px;*/
 }
 .aboutMe .aboutContent{
 	display: inline-block;
@@ -336,12 +329,6 @@ background: red;
 	margin-top: 50px;
 	color: white;
 }*/
-#musicContainer{
-	width: 30vw;
-	float: left;
-	min-width: 281px;
-	padding-bottom: 40px;
-}
 #musicContainer iframe{
 	margin-bottom: 20px;
 	margin-right: 0px;
@@ -351,16 +338,21 @@ background: red;
 	width: 30vw;
 	min-width: 281px;
 }
+
 #musicParagraph{
-width: 350px;
+/*width: 350px;*/
+/*max-width: 600px;*/
 border:1px solid white;
 border-radius: 10px;
 padding: 10px;
 background: rgba(57,93,137,.3);
-float: left;
-float: right;
 color: white;
 line-height: 25px;
+text-align: center;
+position: center;
+}
+#musicParagraphContainer{
+	margin-bottom: 50px;
 }
 /*FOOTER*/
 .content footer{
